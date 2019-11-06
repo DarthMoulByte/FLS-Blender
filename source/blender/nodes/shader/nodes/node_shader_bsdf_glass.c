@@ -24,7 +24,7 @@
 static bNodeSocketTemplate sh_node_bsdf_glass_in[] = {
     {SOCK_RGBA, 1, N_("Color"), 1.0f, 1.0f, 1.0f, 1.0f, 0.0f, 1.0f},
     {SOCK_FLOAT, 1, N_("Roughness"), 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f, PROP_FACTOR},
-    {SOCK_FLOAT, 1, N_("IOR"), 1.51f, 0.0f, 0.0f, 0.0f, 0.0f, 1000.0f},
+    {SOCK_FLOAT, 1, N_("IOR"), 1.520f, 0.0f, 0.0f, 0.0f, 0.0f, 1000.0f},
     {SOCK_VECTOR,
      1,
      N_("Normal"),
